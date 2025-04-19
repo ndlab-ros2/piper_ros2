@@ -28,6 +28,7 @@ foxyの場合
    ```
 
 - CANモジュールの接続
+
 USB CANをつなげて、次のコマンドを実行
    ```bash
    bash can_activate.sh can0 1000000
