@@ -5,7 +5,7 @@ Explanation of piper setup for ROS2_humble
 動作環境
 ・ubuntu22.04 humble
 
-##セットアップ
+## セットアップ
 - ワークスペース作成
    ```bash
    mkdir -p piper_ros2/src
