@@ -2,7 +2,7 @@
 Explanation of piper setup for ROS2_humble
 
 
-動作環境
+## 動作環境
 ・ubuntu22.04 humble
 
 ## セットアップ
