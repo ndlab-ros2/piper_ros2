@@ -27,7 +27,7 @@ foxyの場合
    git clone --branch foxy https://github.com/agilexrobotics/piper_ros.git
    ```
 
-・CANモジュールの接続
+- CANモジュールの接続
 USB CANをつなげて、次のコマンドを実行
    ```bash
    bash can_activate.sh can0 1000000
