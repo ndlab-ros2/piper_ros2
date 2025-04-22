@@ -39,7 +39,7 @@ foxyの場合
    colcon build
    source install/setup.bash
    ```
-- 制御コードの実行 
+- 制御コードの実行(グリッパー部分の制御も可能)
    ```bash
    ros2 launch piper start_single_piper.launch.py can_port:=can0 auto_enable:=true gripper_exist:=true gripper_val_mutiple:=2
    ```
