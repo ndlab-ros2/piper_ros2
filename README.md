@@ -29,7 +29,7 @@ foxyの場合
 
 - CANモジュールの接続
 
-USB CANをつなげて、次のコマンドを実行
+コンセントもUSB CANもつなげていない状態からコンセントを差し、その後にUSB CANをつなげて、次のコマンドを実行
    ```bash
    bash can_activate.sh can0 1000000
    ```
@@ -41,7 +41,7 @@ USB CANをつなげて、次のコマンドを実行
    ```
 - 制御コードの実行 
    ```bash
-   ros2 launch piper start_single_piper.launch.py can_port:=can0 auto_enable:=true gripper_exist:=false gripper_val_mutiple:=2
+   ros2 launch piper start_single_piper.launch.py can_port:=can0 auto_enable:=true gripper_exist:=true gripper_val_mutiple:=2
    ```
 
    ```bash
