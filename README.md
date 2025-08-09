@@ -31,6 +31,7 @@ foxyの場合
 
 コンセントもUSB CANもつなげていない状態からコンセントを差し、その後にUSB CANをつなげて、次のコマンドを実行
    ```bash
+   cd piper_ros2/src/piper_ros
    bash can_activate.sh can0 1000000
    ```
 
